@@ -1,0 +1,58 @@
+.container {
+    max-width: 400px;
+    margin: auto;  
+    
+}
+
+#display {
+    text-align: right;
+    height: 70px;
+    line-height: 70px;
+    padding: 16px 8px;
+    font-size: 25px; 
+    background-color: black;
+    color: white;
+}
+
+.buttons {
+    display: grid;  
+    background-color: black;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    border-radius: 0% 0% 5% 5%;  
+}
+/*
+.buttons > div {
+    border-top: 1px solid midnightblue;
+    border-right: 1px solid midnightblue;
+}*/
+
+.button {
+    line-height: 80px;
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+    margin: 10px;
+    border-radius: 90%;
+    background-color: rgb(231, 226, 226);
+}
+
+.top {
+    background-color: burlywood;
+    color: white; 
+}
+
+.op {
+    background-color: coral;
+    color: white; 
+}
+
+#equal {
+    background-color: rgb(35, 35, 190);
+    color: white;
+}
+
+.button:hover {
+    background-color: black;
+    color: white;
+    transition: 0.5s ease-in-out;
+}
